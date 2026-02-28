@@ -1,5 +1,5 @@
 description: Square MIP LCD display module
-github_branch: MODUL01A
+github_branch: GLCD01A
 github_branches:
 - MODUL01A
 github_description: Square MIP LCD display module
@@ -11,4 +11,4 @@ issues: 2
 mark: 50
 tags: []
 title: GLCD01
-updated: '2026-02-28T00:05:39.642403+00:00'
+updated: '2026-02-28T00:06:23.466364+00:00'
