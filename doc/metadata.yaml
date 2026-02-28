@@ -1,14 +1,14 @@
-description: Template repository
+description: Square MIP LCD display module
 github_branch: MODUL01A
 github_branches:
 - MODUL01A
-github_repo: MODUL01
-github_url: https://github.com/mlab-modules/MODUL01
+github_description: Square MIP LCD display module
+github_repo: GLCD01
+github_url: https://github.com/mlab-modules/GLCD01
 homepage: false
 images: []
 issues: 2
 mark: 50
-tags:
-- mlab
-- mlab-module
-title: MODUL01
+tags: []
+title: GLCD01
+updated: '2026-02-28T00:05:39.642403+00:00'
