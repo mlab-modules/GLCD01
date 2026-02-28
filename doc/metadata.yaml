@@ -6,9 +6,18 @@ github_description: Square MIP LCD display module
 github_repo: GLCD01
 github_url: https://github.com/mlab-modules/GLCD01
 homepage: false
-images: []
+images:
+- doc/gen/img/GLCD01-top.png
+- doc/gen/img/GLCD01-bottom.png
+- doc/gen/GLCD01-schematic.svg
+- doc/gen/img/GLCD01-top.svg
+- doc/gen/img/GLCD01-bottom.svg
+- hw/cam_profi/assembly/GLCD01-assembly_page_01.svg
+- hw/cam_profi/assembly/GLCD01-assembly_page_02.svg
 issues: 2
 mark: 50
+mod_ibom: hw/cam_profi/GLCD01-ibom.html
+mod_scheme: doc/gen/GLCD01-schematic.pdf
 tags: []
 title: GLCD01
-updated: '2026-02-28T00:22:29.286788+00:00'
+updated: '2026-02-28T00:24:23.965706+00:00'
