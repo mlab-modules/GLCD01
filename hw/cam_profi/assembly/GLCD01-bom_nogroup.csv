@@ -1,0 +1,5 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
+1,,C_Small-Device-ISM02A-rescue,C2,100nF,C_0805_2012Metric,1,,C0805_100n
+2,,C_Small-Device-ISM02A-rescue,C1,10uF,C_0805_2012Metric,1,,5c70984812875079b91f8bbe
+3,,D_ZENER-MLAB_D,D1,"BZV55C-5,6V",D_SMA,1,,5c70984512875079b91f88b2
+4,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J1,Umin ... Umax,Straight_2x03,1,,
