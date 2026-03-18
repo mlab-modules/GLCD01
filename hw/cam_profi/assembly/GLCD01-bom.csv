@@ -1,5 +1,10 @@
-Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
-1,,C_Small-Device-ISM02A-rescue,C2,100nF,C_0805_2012Metric,1,,C0805_100n
-2,,C_Small-Device-ISM02A-rescue,C1,10uF,C_0805_2012Metric,1,,5c70984812875079b91f8bbe
-3,,D_ZENER-MLAB_D,D1,"BZV55C-5,6V",D_SMA,1,,5c70984512875079b91f88b2
-4,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J1,Umin ... Umax,Straight_2x03,1,,
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,height,mouser part number,mouser price/stock,manufacturer_name,manufacturer_part_number
+1,"Unpolarized capacitor, small symbol",C_Small,C3C4,100nF/63V,C_0603_1608Metric,2,~,,,,,
+2,GRM21BR71H105KA12L - nutno dodrzet typ,C_Small,C2,GRM21BR71H105KA12L,C_0603_1608Metric,1,~,,,,,
+3,"10 Position FPC Connector Contacts, Top and Bottom 0.016"" (0.40mm) Surface Mount, Right Angle",046824610000846+,J2,046824610000846+,046824610000846,1,https://ele.kyocera.com/assets/products/connector/6824.pdf,1,346-046824610000846,https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/046824610000846%2b?qs=d0WKAl%252BL4KbtJKCl38078A%3D%3D,Kyocera AVX,046824610000846+
+4,MLAB modified doubled pinheader connector,JUMP_7X2,J1,JUMP_7X2,Straight_2x07,1,,,,,,
+5,"50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",BSS138,Q1,BSS138,SOT-23,1,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,,,,,
+6,"Resistor, small symbol",R_Small,R3,1k,R_0603_1608Metric,1,~,,,,,
+7,"Resistor, small symbol",R_Small,R1,750k,R_0603_1608Metric,1,~,,,,,
+8,"Resistor, small symbol",R_Small,R2R4,1M,R_0603_1608Metric,2,~,,,,,
+9,,MIC1557YM5-TR,U1,MIC1557YM5-TR,SOT-23-5,1,MIC1557YM5-TR,,,,,

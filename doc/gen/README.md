@@ -5,7 +5,7 @@ Board size: 40.13x40.13 mm (1.58x1.58 inches)
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
 - Material: FR4
-- Finish: HAL
+- Finish: None
 - Layers: 2
 - Copper thickness: 35 µm
 
@@ -18,13 +18,27 @@ Silk screen: TOP / BOTTOM
 - Color: White
 
 
+Stackup:
+
+| Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
+|----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      |                  |               |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |               |                 |           |              |
+| F.Mask               | Top Solder Mask      |                  |            10 |                 |           |              |
+| F.Cu                 | copper               |                  |            35 |                 |           |              |
+| dielectric 1         | core                 |                  |          1510 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |            35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   |                  |            10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |               |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   |                  |               |                 |           |              |
+
 # Important sizes
 
 Clearance: 0.2 mm (8 mils)
 
-Track width: N/A mm (N/A mils)
+Track width: 0.15 mm (6 mils)
 
-- By design rules: 0.2 mm (8 mils)
+- By design rules: 0.15 mm (6 mils)
 
 Drill: 1.0 mm (39 mils)
 
@@ -43,7 +57,7 @@ Outer Annular Ring: 0.26 mm (10 mils)
 
 - By design rules: 0.26 mm (10 mils)
 
-Eurocircuits class: 4A
+Eurocircuits class: 6A
 - Using min drill 1.0 mm for an OAR of 0.26 mm
 
 
@@ -51,14 +65,16 @@ Eurocircuits class: 4A
 
 Components count: (SMD/THT)
 
-- Top: 0/5 (THT)
-- Bottom: 3/0 (SMD)
+- Top: 10/5 (SMD + THT)
+- Bottom: 0/0 (NONE)
 
 Defined tracks:
 
 
 Used tracks:
 
+- 0.15 mm (6 mils) (11) defined: no
+- 0.25 mm (10 mils) (2) defined: no
 
 Defined vias:
 
@@ -68,7 +84,7 @@ Used vias:
 
 Holes (excluding vias):
 
-- 0.89 mm (35 mils) (6)
+- 0.89 mm (35 mils) (14)
 - 3.0 mm (118 mils) (4)
 
 Oval holes:
@@ -76,7 +92,7 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 1.0 mm (39 mils) (6)
+- 1.0 mm (39 mils) (14)
 - 3.1 mm (122 mils) (4)
 
 Solder paste stats:
@@ -88,7 +104,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |               6 |      14.57 |      0.07 |
+| Total  |              34 |      19.95 |      0.10 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 

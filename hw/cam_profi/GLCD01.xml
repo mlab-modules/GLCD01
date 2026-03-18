@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/GLCD01.kicad_sch</source>
-    <date>2026-02-28T00:23:47+0000</date>
+    <date>2026-03-18T21:06:56+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,75 +24,101 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C1">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="UST_id"/>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
-        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6d2a73e9-4c61-4f64-a858-d2b8a9a4b473</tstamps>
-    </comp>
     <comp ref="C2">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <value>GRM21BR71H105KA12L</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>GRM21BR71H105KA12L - nutno dodrzet typ</description>
       <fields>
-        <field name="UST_id">C0805_100n</field>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">GRM21BR71H105KA12L - nutno dodrzet typ</field>
       </fields>
-      <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
-      <property name="UST_id" value="C0805_100n"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7fab2e4e-c967-46aa-8b62-a4eb722fba85</tstamps>
+      <tstamps>e126f5a3-0602-4945-bebb-2ccc156c6e1c</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>BZV55C-5,6V</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
+    <comp ref="C3">
+      <value>100nF/63V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88b2</field>
-        <field name="Footprint">Diode_SMD:D_SMA</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
-      <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f88b2"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GLCD01.kicad_sch"/>
-      <property name="ki_fp_filters" value="D? SO* SM*"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fd1e3c55-10e7-496c-9431-54c316ba931e</tstamps>
+      <tstamps>d25d51f6-3b29-4bb4-b6f6-d3e9384bf2f8</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF/63V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c84b383-a234-4b81-8935-4ed068eb601e</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Umin ... Umax</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <value>JUMP_7X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x07</footprint>
+      <description>MLAB modified doubled pinheader connector</description>
       <fields>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x07</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">MLAB modified doubled pinheader connector</field>
       </fields>
-      <libsource lib="header" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <libsource lib="MLAB_Jumpers" part="JUMP_7X2" description="MLAB modified doubled pinheader connector"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GLCD01.kicad_sch"/>
-      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
+      <property name="ki_keywords" value="JUMPER PINHEADER"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000549d65bc</tstamps>
+      <tstamps>61d50a31-4492-4104-8a2f-b6b338e7f132</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>046824610000846+</value>
+      <footprint>046824610000846</footprint>
+      <datasheet>https://ele.kyocera.com/assets/products/connector/6824.pdf</datasheet>
+      <description>10 Position FPC Connector Contacts, Top and Bottom 0.016" (0.40mm) Surface Mount, Right Angle</description>
+      <fields>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">346-046824610000846</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/046824610000846%2b?qs=d0WKAl%252BL4KbtJKCl38078A%3D%3D</field>
+        <field name="Manufacturer_Name">Kyocera AVX</field>
+        <field name="Manufacturer_Part_Number">046824610000846+</field>
+        <field name="Footprint">046824610000846</field>
+        <field name="Datasheet">https://ele.kyocera.com/assets/products/connector/6824.pdf</field>
+        <field name="Description">10 Position FPC Connector Contacts, Top and Bottom 0.016" (0.40mm) Surface Mount, Right Angle</field>
+      </fields>
+      <libsource lib="FPC_10" part="046824610000846+" description="10 Position FPC Connector Contacts, Top and Bottom 0.016&quot; (0.40mm) Surface Mount, Right Angle"/>
+      <property name="Height" value="1"/>
+      <property name="Mouser Part Number" value="346-046824610000846"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/046824610000846%2b?qs=d0WKAl%252BL4KbtJKCl38078A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kyocera AVX"/>
+      <property name="Manufacturer_Part_Number" value="046824610000846+"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77cec1f1-40a0-4c6d-8146-97a03ed50f92</tstamps>
     </comp>
     <comp ref="M1">
       <value>HOLE M3</value>
@@ -150,58 +176,246 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
     </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="Description">50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>685ce8ec-680d-46f3-90a1-803e7ae76497</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>750k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9dc767f-9d1b-456d-891a-188c9e103a05</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>475a91eb-423d-4b38-b718-277a1669b551</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>788ede97-9454-4e93-a660-8a25d651eb55</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caf28d01-603f-4724-9232-90a413293054</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MIC1557YM5-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>MIC1557YM5-TR</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">MIC1557YM5-TR</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MIC1557" part="MIC1557YM5-TR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="MIC1557YM5-TR"/>
+      <property name="ki_fp_filters" value="SOT-23-5_M5_MCH SOT-23-5_M5_MCH-M SOT-23-5_M5_MCH-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db41570b-3750-4b2b-952c-384a774247e0</tstamps>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue">
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_Small-Device-ISM02A-rescue</field>
+        <field name="Value">C_Small</field>
         <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ISM02A-rescue" part="D_ZENER-MLAB_D">
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
       <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
+        <fp>R_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_ZENER-MLAB_D</field>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
         <field name="Footprint"/>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FPC_10" part="046824610000846+">
+      <description>10 Position FPC Connector Contacts, Top and Bottom 0.016" (0.40mm) Surface Mount, Right Angle</description>
+      <docs>https://ele.kyocera.com/assets/products/connector/6824.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">046824610000846+</field>
+        <field name="Footprint">046824610000846</field>
+        <field name="Datasheet">https://ele.kyocera.com/assets/products/connector/6824.pdf</field>
+        <field name="Description">10 Position FPC Connector Contacts, Top and Bottom 0.016" (0.40mm) Surface Mount, Right Angle</field>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">346-046824610000846</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/046824610000846%2b?qs=d0WKAl%252BL4KbtJKCl38078A%3D%3D</field>
+        <field name="Manufacturer_Name">Kyocera AVX</field>
+        <field name="Manufacturer_Part_Number">046824610000846+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC1557" part="MIC1557YM5-TR">
+      <docs>MIC1557YM5-TR</docs>
+      <footprints>
+        <fp>SOT-23-5_M5_MCH</fp>
+        <fp>SOT-23-5_M5_MCH-M</fp>
+        <fp>SOT-23-5_M5_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC1557YM5-TR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">MIC1557YM5-TR</field>
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="T/T" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CS" type="input"/>
+        <pin num="4" name="VS" type="power_in"/>
+        <pin num="5" name="OUT" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="header" part="HEADER_2x03_PARALLEL">
-      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+    <libpart lib="MLAB_Jumpers" part="JUMP_7X2">
+      <description>MLAB modified doubled pinheader connector</description>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">HEADER_2x03_PARALLEL</field>
+        <field name="Value">JUMP_7X2</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
-        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
+        <field name="Description">MLAB modified doubled pinheader connector</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="input"/>
-        <pin num="2" name="" type="input"/>
-        <pin num="3" name="" type="input"/>
-        <pin num="4" name="" type="input"/>
-        <pin num="5" name="" type="input"/>
-        <pin num="6" name="" type="input"/>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="6" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="8" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="10" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="12" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="14" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="Description">50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="mlab-default-rescue" part="HOLE">
@@ -217,27 +431,94 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
   <nets>
-    <net code="1" name="+5V" class="Default">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="3" pintype="input"/>
-      <node ref="J1" pin="4" pintype="input"/>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VS" pintype="power_in"/>
     </net>
     <net code="2" name="GND" class="Default">
-      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="1" pintype="input"/>
-      <node ref="J1" pin="2" pintype="input"/>
-      <node ref="J1" pin="5" pintype="input"/>
-      <node ref="J1" pin="6" pintype="input"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="14" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="M1" pin="1" pintype="input"/>
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(J1-4-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J1-6-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J1-8-Pad7)" class="Default">
+      <node ref="J1" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-10-Pad9)" class="Default">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="10" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-12-Pad11)" class="Default">
+      <node ref="J1" pin="11" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(Q1-D)" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(Q1-G)" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(U1-OUT)" class="Default">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(U1-T/T)" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="T/T" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(J2-Pad10)" class="Default">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(J2-PadMP1)" class="Default">
+      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(J2-PadMP2)" class="Default">
+      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="passive"/>
     </net>
   </nets>
 </export>
