@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/GLCD01.kicad_sch</source>
-    <date>2026-03-18T21:06:56+0000</date>
+    <date>2026-05-06T21:21:07+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,7 +12,7 @@
         <date>%d. %m. %Y</date>
         <source>GLCD01.kicad_sch</source>
         <comment number="1" value="Square MIP LCD display module "/>
-        <comment number="2" value="R-R &lt;email@example.com&gt;"/>
+        <comment number="2" value="R-R &lt;r.roztocil@email.cz&gt;"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -266,6 +266,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>caf28d01-603f-4724-9232-90a413293054</tstamps>
     </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc197838-1111-4897-9003-bf344f5a1b99</tstamps>
+    </comp>
     <comp ref="U1">
       <value>MIC1557YM5-TR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -490,6 +509,7 @@
       <node ref="J1" pin="11" pinfunction="12" pintype="passive"/>
       <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="Net-(Q1-D)" class="Default">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
@@ -504,6 +524,7 @@
     <net code="10" name="Net-(U1-OUT)" class="Default">
       <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="OUT" pintype="output"/>
     </net>
     <net code="11" name="Net-(U1-T/T)" class="Default">
