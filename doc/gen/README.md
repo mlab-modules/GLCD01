@@ -34,31 +34,31 @@ Stackup:
 
 # Important sizes
 
-Clearance: 0.2 mm (8 mils)
+Clearance: 0.15 mm (6 mils)
 
 Track width: 0.15 mm (6 mils)
 
 - By design rules: 0.15 mm (6 mils)
 
-Drill: 0.5 mm (20 mils)
+Drill: 0.3 mm (12 mils)
 
-- Vias: 0.5 mm (20 mils) [Design: 0.4 mm (16 mils)]
+- Vias: 0.3 mm (12 mils) [Design: 0.3 mm (12 mils)]
 - Pads: 1.0 mm (39 mils)
 - The above values are real drill sizes, they add 0.1 mm (4 mils) to plated holes (PTH)
 
-Via: 0.8/0.4 mm (31/16 mils)
+Via: 0.46/0.2 mm (18/8 mils)
 
-- By design rules: 0.4/0.3 mm (16/12 mils)
-- Micro via: yes [0.2/0.1 mm (8/4 mils)]
+- By design rules: 0.4/0.2 mm (16/8 mils)
+- Micro via: yes [0.15/0.1 mm (6/4 mils)]
 - Buried/blind via: yes
-- Total: 2 (thru: 2 buried/blind: 0 micro: 0)
+- Total: 8 (thru: 8 buried/blind: 0 micro: 0)
 
-Outer Annular Ring: 0.15 mm (6 mils)
+Outer Annular Ring: 0.08 mm (3 mils)
 
 - By design rules: 0.26 mm (10 mils)
 
-Eurocircuits class: 6B
-- Using min drill 0.5 mm for an OAR of 0.15 mm
+Eurocircuits class: 6E
+- Using min drill 0.2 mm for an OAR of 0.13 mm
 
 
 # General stats
@@ -73,7 +73,7 @@ Defined tracks:
 
 Used tracks:
 
-- 0.15 mm (6 mils) (114) defined: no
+- 0.15 mm (6 mils) (115) defined: no
 - 0.25 mm (10 mils) (2) defined: no
 
 Defined vias:
@@ -81,7 +81,7 @@ Defined vias:
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 2, Aspect: 2.0 A) defined: no
+- 0.46/0.2 mm (18/8 mils) (Count: 8, Aspect: 3.5 A) defined: no
 
 Holes (excluding vias):
 
@@ -93,7 +93,7 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.5 mm (20 mils) (2)
+- 0.3 mm (12 mils) (8)
 - 1.0 mm (39 mils) (14)
 - 3.1 mm (122 mils) (4)
 
