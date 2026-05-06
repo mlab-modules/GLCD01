@@ -10,7 +10,7 @@
 		(rev "REV")
 		(company "Mlab www.mlab.cz")
 		(comment 1 "Square MIP LCD display module ")
-		(comment 2 "R-R <email@example.com>")
+		(comment 2 "R-R <r.roztocil@email.cz>")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1913,6 +1913,12 @@
 		(uuid "8a7970c8-8748-488c-8a02-708ebd1c3372")
 	)
 	(junction
+		(at 191.77 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c9debe-f110-47ab-91e0-ceae5c2855b2")
+	)
+	(junction
 		(at 199.39 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1942,6 +1948,12 @@
 		(color 0 0 0 0)
 		(uuid "dc6b18e4-f82f-487b-92ca-62efdd75c5d0")
 	)
+	(junction
+		(at 102.87 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faf3ec19-34d1-4457-8ead-f3cd4a9fe59f")
+	)
 	(wire
 		(pts
 			(xy 260.35 53.34) (xy 260.35 52.07)
@@ -1951,6 +1963,16 @@
 			(type default)
 		)
 		(uuid "01c2eec3-c702-476b-8ddf-b64a8bff97f7")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 191.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0371f00c-0d29-4e96-8010-2af7d685a6fe")
 	)
 	(wire
 		(pts
@@ -1974,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 137.16) (xy 102.87 109.22)
+			(xy 102.87 137.16) (xy 102.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2174,6 +2196,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 110.49) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f3642d-3a63-4d36-a1aa-26f6947943bb")
+	)
+	(wire
+		(pts
 			(xy 157.48 83.82) (xy 157.48 86.36)
 		)
 		(stroke
@@ -2201,6 +2233,16 @@
 			(type default)
 		)
 		(uuid "71df4281-b20c-4170-9b3a-00331a52613f")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749be002-d6aa-437f-b876-0f4b63fb0b6f")
 	)
 	(wire
 		(pts
@@ -2411,6 +2453,16 @@
 			(type dash)
 		)
 		(uuid "d6ddd7a6-b56d-41ba-a72a-e71723aa4e5a")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b6591a-8c30-4347-8d15-9d3775f01a80")
 	)
 	(wire
 		(pts
@@ -4367,6 +4419,73 @@
 			(project "GLCD01"
 				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 142.24 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cc197838-1111-4897-9003-bf344f5a1b99")
+		(property "Reference" "R5"
+			(at 142.24 108.204 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 141.986 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "002bfd6f-3b63-44bd-87ed-93e4d0472490")
+		)
+		(pin "2"
+			(uuid "f7df1781-e153-44ba-9300-f128dbd5f21d")
+		)
+		(instances
+			(project "GLCD01"
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(reference "R5")
 					(unit 1)
 				)
 			)
