@@ -18,6 +18,10 @@ issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/GLCD01-ibom.html
 mod_scheme: doc/gen/GLCD01-schematic.pdf
-tags: []
-title: GLCD01
+tags:
+- display
+- spi-display
+- mlab-module
+- human-interface
+title: GLCD01 - MIP LCD display module
 updated: '2026-05-11T00:42:44.871067+00:00'
