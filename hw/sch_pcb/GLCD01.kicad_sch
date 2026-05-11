@@ -2273,7 +2273,7 @@
 	)
 	(text "MOUNTING HOLES"
 		(exclude_from_sim no)
-		(at 252.73 60.96 0)
+		(at 152.4 194.31 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2302,6 +2302,27 @@
 		)
 		(uuid "bab80f86-0d42-4a57-8aa1-0da0927dd4a3")
 	)
+	(text_box "Kyocera MIP LCD MLAB module\nTN0181ANVNANN-GN00, 1.8\", 256×256 px, SPI"
+		(exclude_from_sim no)
+		(at 26.67 22.86 0)
+		(size 96.52 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.286 2.286)
+			)
+			(justify left top)
+		)
+		(uuid "c190c97b-d4fc-4d98-be25-01409b279785")
+	)
 	(junction
 		(at 124.46 130.81)
 		(diameter 0)
@@ -2327,7 +2348,7 @@
 		(uuid "410281fa-5df4-4792-819e-985bff5cc3b3")
 	)
 	(junction
-		(at 270.51 52.07)
+		(at 170.18 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "608ce7a1-b607-4140-920b-fe34157c5ab1")
@@ -2339,7 +2360,7 @@
 		(uuid "700baa2e-7186-4914-b69a-4edd76b05cd1")
 	)
 	(junction
-		(at 265.43 52.07)
+		(at 165.1 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a7970c8-8748-488c-8a02-708ebd1c3372")
@@ -2351,7 +2372,7 @@
 		(uuid "99c7dbc4-9238-4310-9b57-239d08a222d9")
 	)
 	(junction
-		(at 260.35 52.07)
+		(at 160.02 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3532b73-178d-4289-9df6-7cba4ca63286")
@@ -2380,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 53.34) (xy 260.35 52.07)
+			(xy 160.02 186.69) (xy 160.02 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2400,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 53.34) (xy 265.43 52.07)
+			(xy 165.1 186.69) (xy 165.1 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 52.07) (xy 270.51 52.07)
+			(xy 175.26 185.42) (xy 170.18 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 53.34) (xy 275.59 52.07)
+			(xy 175.26 186.69) (xy 175.26 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 52.07) (xy 260.35 52.07)
+			(xy 165.1 185.42) (xy 160.02 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2601,7 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 50.8) (xy 278.13 60.96)
+			(xy 177.8 184.15) (xy 177.8 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 53.34) (xy 270.51 52.07)
+			(xy 170.18 186.69) (xy 170.18 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2691,7 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 60.96) (xy 252.73 60.96)
+			(xy 177.8 194.31) (xy 152.4 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 255.27 53.34)
+			(xy 154.94 185.42) (xy 154.94 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2831,7 @@
 	)
 	(polyline
 		(pts
-			(xy 252.73 60.96) (xy 252.73 50.8)
+			(xy 152.4 194.31) (xy 152.4 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 265.43 52.07)
+			(xy 170.18 185.42) (xy 165.1 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2890,7 +2911,7 @@
 	)
 	(polyline
 		(pts
-			(xy 252.73 50.8) (xy 278.13 50.8)
+			(xy 152.4 184.15) (xy 177.8 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 52.07) (xy 255.27 52.07)
+			(xy 160.02 185.42) (xy 154.94 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3111,7 @@
 	)
 	(symbol
 		(lib_id "mlab-default-rescue:HOLE")
-		(at 255.27 54.61 90)
+		(at 154.94 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3098,7 +3119,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000549d7549")
 		(property "Reference" "M1"
-			(at 255.27 57.15 90)
+			(at 154.94 190.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3106,7 +3127,7 @@
 			)
 		)
 		(property "Value" "HOLE M3"
-			(at 257.81 54.61 0)
+			(at 157.48 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3115,7 +3136,7 @@
 			)
 		)
 		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 255.27 54.61 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3124,7 +3145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 54.61 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3132,7 +3153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 54.61 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3174,7 @@
 	)
 	(symbol
 		(lib_id "mlab-default-rescue:HOLE")
-		(at 260.35 54.61 90)
+		(at 160.02 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3161,7 +3182,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000549d7628")
 		(property "Reference" "M2"
-			(at 260.35 57.15 90)
+			(at 160.02 190.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3169,7 +3190,7 @@
 			)
 		)
 		(property "Value" "HOLE M3"
-			(at 262.89 54.61 0)
+			(at 162.56 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3178,7 +3199,7 @@
 			)
 		)
 		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 260.35 54.61 0)
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3187,7 +3208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 54.61 0)
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3195,7 +3216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 54.61 0)
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3237,7 @@
 	)
 	(symbol
 		(lib_id "mlab-default-rescue:HOLE")
-		(at 265.43 54.61 90)
+		(at 165.1 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3224,7 +3245,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000549d7646")
 		(property "Reference" "M3"
-			(at 265.43 57.15 90)
+			(at 165.1 190.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3232,7 +3253,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 267.97 54.61 0)
+			(at 167.64 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3241,7 +3262,7 @@
 			)
 		)
 		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 265.43 54.61 0)
+			(at 165.1 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3250,7 +3271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 54.61 0)
+			(at 165.1 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3258,7 +3279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 54.61 0)
+			(at 165.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3300,7 @@
 	)
 	(symbol
 		(lib_id "mlab-default-rescue:HOLE")
-		(at 270.51 54.61 90)
+		(at 170.18 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3287,7 +3308,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000549d7665")
 		(property "Reference" "M4"
-			(at 270.51 57.15 90)
+			(at 170.18 190.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3295,7 +3316,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 273.05 54.61 0)
+			(at 172.72 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3304,7 +3325,7 @@
 			)
 		)
 		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 270.51 54.61 0)
+			(at 170.18 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3313,7 +3334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 54.61 0)
+			(at 170.18 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3321,7 +3342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 54.61 0)
+			(at 170.18 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3363,7 @@
 	)
 	(symbol
 		(lib_id "mlab-default-rescue:GND")
-		(at 275.59 53.34 0)
+		(at 175.26 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3350,7 +3371,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000549d770f")
 		(property "Reference" "#PWR03"
-			(at 275.59 59.69 0)
+			(at 175.26 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3359,7 +3380,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 57.15 0)
+			(at 175.26 190.5 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3367,7 +3388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 53.34 0)
+			(at 175.26 186.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3375,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 53.34 0)
+			(at 175.26 186.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3383,7 +3404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 53.34 0)
+			(at 175.26 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,36 +1,13 @@
-# MODUL01 - Template to create a new MLAB module
+# GLCD01 - MIP LCD display module
 
-MLAB's module template repository. Please [use the "Use this template" button](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to create a new MLAB module from this repository.
+MLAB module for the [TN0181ANVNANN-GN00](doc/datasheets/MIP_LCD.pdf) square MIP (Memory-in-Pixel) LCD display. MIP displays retain the image without power, making them suitable for low-power applications. The display is connected via a 10-pin FPC connector (J2) and communicates over a 3-wire SPI interface (SCLK, SI, SCS).
 
-The new module repository name must be identical to the proposed new module name. Please look in [MLAB design rules](https://wiki.mlab.cz/doku.php?id=en:rules#identification_of_modules) for an acceptable naming convention.
-After creating the new repository, [rename](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch) the default git branch to be named corresponding to the revision of the module. It is generally adding the "A" suffix to the module name. Therefore, a new repository named MODULENAME01 should have the branch name MODULENAME01A. 
+The module includes a [MIC1557](https://www.microchip.com/en-us/product/mic1557) RC oscillator that generates the required VCOM polarity-reversal signal for the LCD, so no external signal source is needed. Power supply is 3.3 V via the standard MLAB 2×7 pin header (J1).
 
-Then [clone the new MLAB's module repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your workstation. After that perform the following steps in the cloned repository. 
+## Design
 
-## 1. Initialize the assets submodule, and update it to the latest version
-```bash
-git submodule update --init --remote
-```
+![GLCD01 top](/doc/gen/img/GLCD01-top.png) ![GLCD01 bottom](/doc/gen/img/GLCD01-bottom.png)
 
-## 2. Start the design work 
+## Schematics
 
-At that point, you should start to design the new MLAB module project by using the [design tools](https://wiki.mlab.cz/doku.php?id=en:tools).
-
-## 3. Copy the fresh automation workflows
-    
-The following command copies up-to-date KiCAD automation workflow to the new MLAB module repository.
-```bash
-cd doc/assets/workflows/
-./copy_workflow_to_repo.sh
-```
-
-
-## 4. Replace this readme
-
-This readme should be replaced by a description of your new module project! :)
-Please look to the README.md in the root of other modules to get inspiration. 
-
-Thanks for contributing! 
-
-
-    
+[![Schematics](/doc/gen/GLCD01-schematic.svg)](/doc/gen/GLCD01-schematic.pdf)
