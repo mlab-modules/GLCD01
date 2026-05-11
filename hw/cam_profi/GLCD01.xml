@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/GLCD01.kicad_sch</source>
-    <date>2026-05-06T21:30:43+0000</date>
+    <date>2026-05-11T00:23:32+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,6 +24,24 @@
     </sheet>
   </design>
   <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1785d4d-8e57-4bd6-b38e-b1d456e7682e</tstamps>
+    </comp>
     <comp ref="C2">
       <value>GRM21BR71H105KA12L</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -43,7 +61,7 @@
       <tstamps>e126f5a3-0602-4945-bebb-2ccc156c6e1c</tstamps>
     </comp>
     <comp ref="C3">
-      <value>100nF/63V</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
@@ -61,7 +79,7 @@
       <tstamps>d25d51f6-3b29-4bb4-b6f6-d3e9384bf2f8</tstamps>
     </comp>
     <comp ref="C4">
-      <value>100nF/63V</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
@@ -77,6 +95,25 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6c84b383-a234-4b81-8935-4ed068eb601e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BZT52H-C3V6,115</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">650b35ab462c6d9e720543d0</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="UST_ID" value="650b35ab462c6d9e720543d0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a0fa5a-40e7-4f88-92a9-647e0796e4d2</tstamps>
     </comp>
     <comp ref="J1">
       <value>JUMP_7X2</value>
@@ -119,6 +156,25 @@
       <property name="Sheetfile" value="GLCD01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>77cec1f1-40a0-4c6d-8146-97a03ed50f92</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GLCD01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged12*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23b7cd8c-9dc9-43eb-8ed2-d5ee8bd50629</tstamps>
     </comp>
     <comp ref="M1">
       <value>HOLE M3</value>
@@ -267,7 +323,7 @@
       <tstamps>caf28d01-603f-4724-9232-90a413293054</tstamps>
     </comp>
     <comp ref="R5">
-      <value>0R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
@@ -279,11 +335,10 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GLCD01.kicad_sch"/>
-      <property name="dnp"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cc197838-1111-4897-9003-bf344f5a1b99</tstamps>
+      <tstamps>cd3c314f-8277-4a2e-9441-cdd05407dea2</tstamps>
     </comp>
     <comp ref="U1">
       <value>MIC1557YM5-TR</value>
@@ -320,6 +375,27 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Small">
@@ -368,6 +444,25 @@
         <pin num="10" name="10" type="passive"/>
         <pin num="MP1" name="MP1" type="passive"/>
         <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MIC1557" part="MIC1557YM5-TR">
@@ -454,14 +549,19 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
     <library logical="Transistor_FET">
       <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
@@ -469,77 +569,80 @@
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="VS" pintype="power_in"/>
     </net>
-    <net code="2" name="GND" class="Default">
+    <net code="2" name="/1hz" class="Default">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="3" name="/RST" class="Default">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="10" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCLK" class="Default">
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="5" name="/SCS" class="Default">
+      <node ref="J1" pin="5" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="6" name="/SI" class="Default">
+      <node ref="J1" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="7" name="/VCOM" class="Default">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="8" name="/VCOM_CTRL" class="Default">
+      <node ref="J1" pin="11" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="13" pinfunction="14" pintype="passive"/>
       <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="passive"/>
       <node ref="M1" pin="1" pintype="input"/>
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="3" name="Net-(J1-4-Pad3)" class="Default">
-      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
-      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
-    </net>
-    <net code="4" name="Net-(J1-6-Pad5)" class="Default">
-      <node ref="J1" pin="5" pinfunction="6" pintype="passive"/>
-      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
-    </net>
-    <net code="5" name="Net-(J1-8-Pad7)" class="Default">
-      <node ref="J1" pin="7" pinfunction="8" pintype="passive"/>
-      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
-      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
-    </net>
-    <net code="6" name="Net-(J1-10-Pad9)" class="Default">
-      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
-      <node ref="J1" pin="9" pinfunction="10" pintype="passive"/>
-      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
-    </net>
-    <net code="7" name="Net-(J1-12-Pad11)" class="Default">
-      <node ref="J1" pin="11" pinfunction="12" pintype="passive"/>
-      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-    </net>
-    <net code="8" name="Net-(Q1-D)" class="Default">
+    <net code="10" name="Net-(Q1-D)" class="Default">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="CS" pintype="input"/>
     </net>
-    <net code="9" name="Net-(Q1-G)" class="Default">
+    <net code="11" name="Net-(Q1-G)" class="Default">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(U1-OUT)" class="Default">
-      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="OUT" pintype="output"/>
-    </net>
-    <net code="11" name="Net-(U1-T/T)" class="Default">
+    <net code="12" name="Net-(U1-T/T)" class="Default">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="T/T" pintype="input"/>
     </net>
-    <net code="12" name="unconnected-(J2-Pad10)" class="Default">
-      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
-    </net>
-    <net code="13" name="unconnected-(J2-PadMP1)" class="Default">
-      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="passive"/>
-    </net>
-    <net code="14" name="unconnected-(J2-PadMP2)" class="Default">
-      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="passive"/>
+    <net code="13" name="unconnected-(J2-Pad10)" class="Default">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

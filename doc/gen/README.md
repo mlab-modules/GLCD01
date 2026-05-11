@@ -36,7 +36,7 @@ Stackup:
 
 Clearance: 0.15 mm (6 mils)
 
-Track width: 0.15 mm (6 mils)
+Track width: 0.2 mm (8 mils)
 
 - By design rules: 0.15 mm (6 mils)
 
@@ -51,11 +51,11 @@ Via: 0.46/0.2 mm (18/8 mils)
 - By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: yes [0.15/0.1 mm (6/4 mils)]
 - Buried/blind via: yes
-- Total: 8 (thru: 8 buried/blind: 0 micro: 0)
+- Total: 39 (thru: 39 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.08 mm (3 mils)
 
-- By design rules: 0.26 mm (10 mils)
+- By design rules: 0.08 mm (3 mils)
 
 Eurocircuits class: 6E
 - Using min drill 0.2 mm for an OAR of 0.13 mm
@@ -66,22 +66,26 @@ Eurocircuits class: 6E
 Components count: (SMD/THT)
 
 - Top: 0/5 (THT)
-- Bottom: 11/0 (SMD)
+- Bottom: 13/0 (SMD)
 
 Defined tracks:
 
+- 0.2 mm (8 mils)
+- 0.3 mm (12 mils)
 
 Used tracks:
 
-- 0.15 mm (6 mils) (115) defined: no
-- 0.25 mm (10 mils) (2) defined: no
+- 0.2 mm (8 mils) (24) defined: yes
+- 0.3 mm (12 mils) (62) defined: yes
 
 Defined vias:
 
+- 0.5/0.25 mm (20/10 mils)
 
 Used vias:
 
 - 0.46/0.2 mm (18/8 mils) (Count: 8, Aspect: 3.5 A) defined: no
+- 0.5/0.25 mm (20/10 mils) (Count: 31, Aspect: 3.2 A) defined: yes
 
 Holes (excluding vias):
 
@@ -94,6 +98,7 @@ Oval holes:
 Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (8)
+- 0.35 mm (14 mils) (31)
 - 1.0 mm (39 mils) (14)
 - 3.1 mm (122 mils) (4)
 
@@ -106,7 +111,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |              36 |      21.39 |      0.11 |
+| Total  |              40 |      25.31 |      0.13 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
