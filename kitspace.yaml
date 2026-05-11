@@ -5,4 +5,7 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/GLCD01
-summary: Square MIP LCD display module
+summary: "MLAB module for the TN0181ANVNANN-GN00 square MIP (Memory-in-Pixel) LCD\
+  \ display. Communicates over 3-wire SPI (SCLK, SI, SCS). Includes an onboard MIC1557\
+  \ RC oscillator for VCOM generation \u2014 no external signal required. Powered\
+  \ from 3.3 V via the MLAB 2\xD77 pin header."
