@@ -6,7 +6,7 @@ The module includes a [MIC1557](https://www.microchip.com/en-us/product/mic1557)
 
 ## Design
 
-![GLCD01 top](/doc/gen/img/GLCD01-top.png) ![GLCD01 bottom](/doc/gen/img/GLCD01-bottom.png)
+<img src="/doc/gen/img/GLCD01-top.png" width="40%"> <img src="/doc/gen/img/GLCD01-bottom.png" width="40%">
 
 ## Schematics
 
