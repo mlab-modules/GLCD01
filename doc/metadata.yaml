@@ -13,13 +13,13 @@ github_repo: GLCD01
 github_url: https://github.com/mlab-modules/GLCD01
 homepage: false
 images:
-- doc/gen/img/GLCD01-bottom.png
 - doc/gen/img/GLCD01-top.png
-- hw/cam_profi/assembly/GLCD01-assembly_page_01.svg
+- doc/gen/img/GLCD01-bottom.png
 - hw/cam_profi/assembly/GLCD01-assembly_page_02.svg
+- hw/cam_profi/assembly/GLCD01-assembly_page_01.svg
 - doc/gen/GLCD01-schematic.svg
-- doc/gen/img/GLCD01-bottom.svg
 - doc/gen/img/GLCD01-top.svg
+- doc/gen/img/GLCD01-bottom.svg
 issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/GLCD01-ibom.html
@@ -34,4 +34,4 @@ tags:
 - mip
 - mlab
 title: GLCD01
-updated: '2026-05-11T08:02:23.939791+00:00'
+updated: '2026-05-16T01:46:44.936088+00:00'
